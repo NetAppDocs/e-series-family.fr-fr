@@ -1,0 +1,115 @@
+---
+permalink: intro-family.html 
+keywords: introduction, what E-Series is, e-series, SANtricity, CLI, system manager, unified manager 
+summary: La gamme de produits NetApp E-Series offre des services de stockage et de gestion des données applicatives pour les applications à large bande passante qui nécessitent un stockage bloc simple, facile à gérer et rapide avec une fiabilité haute performance. 
+---
+= Introduction à la gamme E-Series de systèmes de stockage
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+La gamme de stockage NetApp E-Series permet de sauvegarder et de restaurer des données dans le cloud de manière flexible et économique. Elle est conçue pour les applications dédiées à large bande passante qui nécessitent un stockage bloc simple, facile à gérer et rapide, avec une fiabilité de premier plan.
+
+
+
+== Plateformes E-Series
+
+Les systèmes de stockage E-Series utilisent des outils de gestion des données intégrant la cohérence applicative. Ils peuvent gérer plusieurs types de disques dans un format 2U ou 4U. Vous pouvez connecter le système de stockage à un SAN depuis plusieurs types d'interfaces et à de nombreux systèmes d'exploitation hôtes.
+
+Les baies de stockage E-Series incluent les modèles de plateforme suivants.
+
+
+
+=== EF600 et EF300
+
+Conçus spécialement pour les charges de travail qui nécessitent des niveaux de performance optimaux, tels que l'analytique Big Data et les bases de données.
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#ef600-models["En savoir plus sur le modèle EF600"].
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#ef300-models["En savoir plus sur le modèle EF300"].
+
+https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf["Lire la fiche technique EF-Series"^].
+
+
+
+=== E5700
+
+Conçus pour des applications haute performance consommatrices de bande passante.
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e5700-models["En savoir plus sur le modèle E5700"].
+
+https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf["Lire la fiche technique E5700"^].
+
+
+
+=== E2800
+
+Modèle optimisé pour les petites entreprises et les bureaux distants qui requièrent des performances adaptées aux charges de travail hétérogènes et un environnement fiable pour leurs applications dédiées.
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e2800-models["En savoir plus sur le modèle E2800"].
+
+https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf["Lire la fiche technique E2800"^].
+
+
+
+== Logiciel SANtricity
+
+Le logiciel SANtricity offre à la fois les interfaces web System Manager et Unified Manager utilisées pour afficher, provisionner et gérer les systèmes de stockage de votre réseau.
+
+https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf["Lire la fiche technique du logiciel SANtricity"^].
+
+
+
+=== SANtricity System Manager
+
+System Manager est un logiciel de gestion web intégré à chaque contrôleur. Pour accéder à l’interface utilisateur, pointez un navigateur vers l’adresse IP du contrôleur. Un assistant d'installation vous aide à commencer la configuration du système.
+
+* Des assistants intuitifs basés sur les workflows et une aide contextuelle permettent de rationaliser les tâches de configuration.
+* Il suggère aux candidats à une configuration qui tirent parti de fonctionnalités matérielles, telles que la protection contre les pertes de tiroirs dans les boîtiers denses et la gestion intelligente de l'usure et des performances des disques SSD.
+* Grâce au contrôle intelligent des performances, vous affichez les informations du système jusqu'aux disques individuels, et vous pouvez exporter les données de performance pour une analyse plus approfondie.
+* Les activités d'ajustement telles que la gestion de la fonction SSD cache, ou la mise en cache de données, sont toutes effectuées en ligne. Lorsqu'une réparation est nécessaire, la fonctionnalité SANtricity Recovery Guru fournit des instructions détaillées.
+
+
+Accédez au https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["Site de la documentation SANtricity System Manager"], où vous pouvez trouver des informations sur la planification, la configuration, la gestion et le dépannage de votre matrice de stockage.
+
+
+
+=== SANtricity Unified Manager
+
+Unified Manager est un logiciel en ligne utilisé pour gérer l'ensemble de votre domaine. Une vue centrale permet de voir l'état des baies E-Series et EF-Series les plus récentes, notamment les systèmes E2800, EF280, EF300, E5700, EF570, Et EF600. Vous pouvez également effectuer des opérations par lots sur des matrices de stockage sélectionnées.
+
+* À partir d'une même fenêtre, vous pouvez afficher l'état des baies, organiser les baies en groupes, mettre à jour SANtricity OS pour plusieurs baies et lancer l'utilitaire intégré SANtricity System Manager pour chaque baie.
+* Vous pouvez configurer rapidement des alertes et d'autres paramètres sur plusieurs baies en une seule opération.
+* SANtricity Unified Manager est installé sur un serveur de gestion Linux ou Windows, et s'exécute dans un navigateur.
+
+
+Accédez au https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html["Site du document SANtricity Unified Manager"], où vous pouvez apprendre à exécuter des commandes de gestion du stockage sur plusieurs baies de stockage réseau.
+
+
+
+=== Proxy de services Web SANtricity
+
+Le proxy de services Web est un serveur API RESTful complet pour les besoins d'orchestration et d'automatisation, qui peut gérer des centaines de baies E-Series existantes et nouvelles. Le proxy est installé séparément sur un serveur Windows ou Linux. Web Services comprend une documentation API qui vous permet d'interagir directement avec l'API REST.
+
+Accédez au https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html["Documents proxy de services Web"].
+
+
+
+== CLI
+
+L'interface de ligne de commande est une application logicielle qui permet de configurer et de surveiller les matrices de stockage.
+
+À l'aide de la CLI, vous pouvez exécuter des commandes à partir d'une invite du système d'exploitation, telle que l'invite DOS C:, un chemin du système d'exploitation Linux ou un chemin du système d'exploitation Solaris.
+
+Accédez au https://docs.netapp.com/us-en/e-series-cli/index.html["Site doc sur l'interface de ligne de commande SANtricity"], Où vous pouvez apprendre à configurer et à surveiller vos matrices de stockage à l'aide des commandes CLI.
+
+
+
+== Pour en savoir plus
+
+* https://docs.netapp.com/us-en/e-series/index.html["Documentation sur les systèmes E-Series"^]
+* https://docs.netapp.com/us-en/e-series-santricity/index.html["Documentation du logiciel SANtricity"^]
+* https://docs.netapp.com/us-en/e-series-cli/index.html["Documentation sur l'interface de ligne de commandes SANtricity"^]
+
