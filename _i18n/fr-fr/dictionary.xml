@@ -80,7 +80,6 @@
   <block id="cc1ba14f8dc9bd7ba20e2aa654cde10b" category="inline-link">Remarque : pour les systèmes d'exploitation SANtricity E-Series/EF-Series</block>
   <block id="2dae7f81af3097152530b0bc519d7eb1" category="paragraph"><block ref="2dae7f81af3097152530b0bc519d7eb1" category="inline-link-rx"></block></block>
   <block id="294d136d5efcf1648eafe92db6c5cf9e" category="sidebar">Documentation sur la gamme de produits E-Series</block>
-  <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="sidebar">Tout</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
   <block id="dc21b082b0947a93d387b8c7e8f89ee5" category="sidebar">Stockage des données</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">Gestion du stockage</block>
@@ -95,6 +94,7 @@
   <block id="19a0a15a7c4d3a3bc51418cbc9a3b2ec" category="sidebar">Utilisez l'interface de ligne de commandes pour configurer et contrôler vos systèmes de stockage E-Series à partir d'une invite de systèmes d'exploitation.</block>
   <block id="7be46423c2b30b6cfa401cb45a35ad2b" category="sidebar">API de services Web</block>
   <block id="c47070155f88602aa042524cd2cc4603" category="sidebar">Utilisez l'API RESTful pour créer et automatiser des workflows sur vos systèmes de stockage E-Series nouveaux et existants.</block>
-  <block id="ae3764f1afaeea3c3503d944dce8f0b9" category="sidebar">BeeGFS sur NetApp</block>
-  <block id="cd03a6967293f50ada66e4749041088c" category="sidebar">Utilisez BeeGFS sur NetApp pour obtenir une infrastructure de stockage HPC et d'IA haute disponibilité qui combine le système de fichiers parallèle BeeGFS avec les systèmes de stockage NetApp EF600.</block>
+  <block id="3a1266b54b8b88dbb50662ab4166c05f" category="sidebar">Tous les documents</block>
+  <block id="28e8b3e83af233fe7085ba954fc6fd36" category="sidebar">BeeGFS sur NetApp avec E-Series Storage</block>
+  <block id="c6ed86424e776eb55d39d911ea6a9183" category="sidebar">Utilisez BeeGFS sur NetApp pour créer et déployer une infrastructure haute disponibilité qui combine le système de fichiers parallèle BeeGFS avec les systèmes de stockage NetApp EF600.</block>
 </blocks>
