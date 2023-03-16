@@ -58,7 +58,7 @@ product-family:
     tags: all, tag_storage_management, tag_SANtricity
   - title: BeeGFS sur NetApp avec E-Series Storage
     icon: "./media/api.png"
-    url: https://review.docs.netapp.com/us-en/beegfs_admin-jgallagher/index.html
+    url: https://docs.netapp.com/us-en/beegfs/index.html
     summary: Utilisez BeeGFS sur NetApp pour créer et déployer une infrastructure
       haute disponibilité qui combine le système de fichiers parallèle BeeGFS avec
       les systèmes de stockage NetApp EF600.
