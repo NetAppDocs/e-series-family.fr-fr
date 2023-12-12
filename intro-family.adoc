@@ -1,15 +1,16 @@
 ---
 permalink: intro-family.html 
-keywords: introduction, what E-Series is, e-series, SANtricity, CLI, system manager, unified manager 
-summary: La gamme de produits NetApp E-Series offre des services de stockage et de gestion des données applicatives pour les applications à large bande passante qui nécessitent un stockage bloc simple, facile à gérer et rapide avec une fiabilité haute performance. 
+keywords: e-series 
+summary: La gamme de stockage NetApp E-Series permet de sauvegarder et de restaurer des données dans le cloud de manière flexible et économique. Elle est conçue pour les applications dédiées à large bande passante qui nécessitent un stockage bloc simple, facile à gérer et rapide, avec une fiabilité de premier plan. 
 ---
-= Introduction à la gamme E-Series de systèmes de stockage
+= En savoir plus sur la gamme E-Series
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
+[role="lead"]
 La gamme de stockage NetApp E-Series permet de sauvegarder et de restaurer des données dans le cloud de manière flexible et économique. Elle est conçue pour les applications dédiées à large bande passante qui nécessitent un stockage bloc simple, facile à gérer et rapide, avec une fiabilité de premier plan.
 
 
