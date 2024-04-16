@@ -1,0 +1,62 @@
+---
+product-family:
+  title: Documentation E-Series
+  keywords: introduction, what E-Series is, e-series, SANtricity, CLI, system manager,
+    unified manager
+  lead: La gamme de produits NetApp E-Series offre des services de stockage et de
+    gestion des données applicatives pour les applications à large bande passante
+    qui nécessitent un stockage bloc simple, facile à gérer et rapide avec une fiabilité
+    haute performance.
+  summary: La gamme de produits NetApp E-Series offre des services de stockage et
+    de gestion des données applicatives pour les applications à large bande passante
+    qui nécessitent un stockage bloc simple, facile à gérer et rapide avec une fiabilité
+    haute performance.
+  sidebarlinks:
+  - title: Tout
+    tags: tag-all
+    class: active
+  - title: Commencez
+    tags: tag-get-started
+  - title: Stockage des données
+    tags: tag-data-storage
+  - title: Gestion du stockage
+    tags: tag-storage-management
+  - title: NetApp
+    tags: tag-solution
+  tiles:
+  - title: En savoir plus sur la gamme E-Series
+    icon: "./media/groups_line-1.png"
+    url: intro-family.html
+    summary: Découvrez la gamme E-Series de systèmes de stockage.
+    tags: tag-all,tag-get-started,tag-data-storage,tag-storage-management,tag-solution
+  - title: Systèmes E-Series
+    icon: "./media/system_line.png"
+    url: "../e-series/index.html"
+    summary: Gérez vos workloads applicatifs grâce à un stockage bloc rapide et à
+      une fiabilité exceptionnelle.
+    tags: tag-all,tag-data-storage
+  - title: Logiciel SANtricity
+    icon: "./media/config_line.png"
+    url: "../e-series-santricity/index.html"
+    summary: Le logiciel SANtricity permet de provisionner et de gérer vos systèmes
+      de stockage E-Series à partir d'une interface web.
+    tags: tag-all,tag-storage-management
+  - title: Interface de ligne de commande
+    icon: "./media/cli_line.png"
+    url: "../e-series-cli/index.html"
+    summary: Utilisez l'interface de ligne de commandes pour configurer et contrôler
+      vos systèmes de stockage E-Series à partir d'une invite de systèmes d'exploitation.
+    tags: tag-all,tag-storage-management
+  - title: API de services Web
+    icon: "./media/api.png"
+    url: "../e-series/web-services-proxy/index.html"
+    summary: Utilisez l'API RESTful pour créer et automatiser des workflows sur vos
+      systèmes de stockage E-Series nouveaux et existants.
+    tags: tag-all,tag-storage-management
+  - title: BeeGFS sur NetApp avec E-Series Storage
+    icon: "./media/api.png"
+    url: "../beegfs/index.html"
+    summary: Utilisez BeeGFS sur NetApp pour créer et déployer une infrastructure
+      haute disponibilité qui combine le système de fichiers parallèle BeeGFS avec
+      les systèmes de stockage NetApp EF600.
+    tags: tag-all,tag-solution
