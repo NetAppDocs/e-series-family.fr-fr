@@ -23,6 +23,16 @@ Les baies de stockage E-Series incluent les modèles de plateforme suivants.
 
 
 
+=== E4000
+
+Conçus pour optimiser les performances des charges de travail mixtes telles que l'analytique, la vidéosurveillance, le calcul haute performance (HPC), la sauvegarde et la restauration.
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e4000-models["En savoir plus sur le modèle E4000"].
+
+https://www.netapp.com/pdf.html?item=/media/116571-ds-4309-hybrid-flash-arrays-e4060-e4012.pdf["Lire la fiche technique E4000"^].
+
+
+
 === EF600 et EF300
 
 Conçus spécialement pour les charges de travail qui nécessitent des niveaux de performance optimaux, tels que l'analytique Big Data et les bases de données.
